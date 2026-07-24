@@ -1,0 +1,46 @@
+# Simulator artifacts
+*.log
+*.vcd
+*.fsdb
+*.wlf
+*.shm/
+transcript
+work/
+csrc/
+*.vpd
+obj_dir/
+*.o
+simv*
+DVEfiles/
+ucli.key
+
+# Spike / build outputs
+ref_model/build/
+ref_model/riscv-isa-sim/
+ref_model/spike-src/
+ref_model/spike-install/
+
+# FuseSoC build output (Ibex elaboration)
+dut/ibex/build/
+
+# Baremetal software builds (sim/*_sw)
+sim/*_sw/*.elf
+sim/*_sw/*.bin
+sim/*_sw/*.vmem
+sim/*_sw/*.dis
+sim/*_sw/*.d
+*.fst
+ibex_simple_system.log
+ibex_simple_system_pcount.csv
+trace_core_*.log
+
+# Editor/OS
+.vscode/
+*.swp
+.DS_Store
+
+# DSim auto-generated / machine-specific
+dsim.env
+dsim_work/
+metrics.db
+Ibex Verification.dpf
